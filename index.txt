@@ -1,0 +1,81 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.profile-card {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.photo-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  flex-basis: 100%;
+  background: #ebebeb;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.name-underline {
+  width: 25%;
+  border: 2px solid teal;
+  margin: 10px 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 5px 0;
+}
+
+h2 {
+  color: gray;
+}
+
+.social-media-icons {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.social-media-icons a {
+  text-decoration: none;
+  color: #666;
+  margin: 0 10px;
+}
+
+.profile-info {
+  padding: 20px;
+  flex: 1; /* allows this div to grow */
+  display: flex;
+  flex-direction: column;
+}
+
+.greeting h1,
+.greeting h3 {
+  margin: 0;
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-top: 20px;
+}
